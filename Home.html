@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="shortcut icon" href="../android-chrome-192x192.png" type="image/x-icon">
+    <link rel="stylesheet" href="../Font awesome/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="file.js"> -->
+    <link rel="stylesheet" href="slide.js">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet"> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script> -->
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<style>
+    body {
+        margin: 0 auto;
+        background-color: darkgrey;
+    }
+
+    #maindiv {
+        height: 2800px;
+        width: 100%;
+
+    }
+
+    #nav1 {
+        height: 100px;
+        width: 100%vw;
+        background-color: rgb(61, 57, 57);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #profile {
+        height: 80px;
+        width: 80px;
+        border: 1px solid;
+        border-radius: 50%;
+        position: relative;
+        top: 10px;
+        left: 40px;
+        background-color: crimson;
+        background-image: url(https://st2.depositphotos.com/16255066/42423/v/600/depositphotos_424236112-stock-illustration-vector-logo-store-building-materials.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #input1 {
+        height: 26px;
+        width: 400px;
+        position: relative;
+        left: 950px;
+        border-radius: 10px;
+        border: 1px solid rgb(181, 58, 79);
+        bottom: 40px;
+        color: black;
+        font-size: medium;
+        font-weight: bold;
+    }
+
+
+
+    #searchicon {
+        position: relative;
+        color: aqua;
+        height: 25px;
+        width: 28px;
+        color: black;
+        position: relative;
+        left: 1328px;
+        bottom: 65px;
+        border-radius: 5px;
+    }
+
+    #Profileicon {
+        position: relative;
+        left: 55px;
+        font-size: larger;
+        font-weight: bold;
+
+    }
+
+    #Profileicon {
+        position: relative;
+        left: 44px;
+        font-size: 25px;
+        color: aliceblue;
+        top: -25px;
+    }
+
+    #bars {
+        position: relative;
+        left: 90px;
+        font-size: 25px;
+        color: white;
+        top: -50px;
+    }
+
+    #baner {
+        height: 350px;
+        width: 100%;
+        background-image: url();
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #circle {
+        height: 600px;
+        width: 100%;
+    }
+
+    .material {
+        height: 180px;
+        width: 180px;
+        border: 1px solid;
+        border-radius: 50%;
+        display: inline-block;
+        padding: 10px;
+        margin-left: 99px;
+    }
+
+    #m1 {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(https://pcq.com.pk/wp-content/uploads/2020/06/5ed64fb91187b.jpg);
+        position: relative;
+        top: 20px;
+
+    }
+
+    #m2 {
+        background-image: url(https://tse4.mm.bing.net/th?id=OIP.vFmD3DG-70hRhbvteFKc0gHaE8&pid=Api&P=0);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        top: 20px;
+    }
+
+    #m3 {
+        background-image: url(https://tse2.explicit.bing.net/th?id=OIP.NYQDGWMKboh2sZ9qTOoZOwHaHD&pid=Api&P=0);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        top: 20px;
+    }
+
+    #m4 {
+        background-image: url(https://tse2.mm.bing.net/th?id=OIP.d_dKUONPpLWk0kXyUt1nIAHaEw&pid=Api&P=0);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        top: 60px;
+    }
+
+    #m5 {
+        background-image: url(https://tse4.mm.bing.net/th?id=OIP.qmet1269-uXnBSbOkiCwwAAAAA&pid=Api&P=0);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        top: 60px;
+    }
+
+    #m6 {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVZ3wlA_wAm_1xF6gUFCiUunCkWUNuLKQ7F8BbYySa6rRMjCAzu2RpwhKc4MKx54Sg9X8&usqp=CAU);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        top: 71PX;
+    }
+
+    #m7 {
+        background-image: url(https://img.staticmb.com/mbcontent/images/uploads/2022/11/Dulux-Paints.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        top: 70px;
+    }
+
+    #m8 {
+        background-image: url(https://static.diffen.com/uploadz/b/b5/Gardening-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        top: 120px;
+    }
+
+    .m8 {
+        font-size: 25px;
+    }
+
+
+
+    #m9 {
+        background-image: url(https://u7q2x7c9.stackpathcdn.com/photos/27/19/393463_15512_XXL.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        top: 70px;
+    }
+
+    #m10 {
+        background-image: url(data:image/jpeg;base64,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);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        top: 70px;
+    }
+
+    h2 {
+        position: relative;
+        top: 180px;
+        left: 23px;
+        color: black;
+    }
+
+    h2:hover {
+        color: brown;
+
+    }
+
+    #service {
+        height: 250px;
+        width: 100%;
+    }
+
+    .child {
+        height: 170px;
+        width: 400px;
+        border: 1px solid black;
+        display: inline-block;
+        margin-left: 80px;
+        border-radius: 10px;
+    }
+
+    p {
+        position: relative;
+        left: 50px;
+        font-size: 20px;
+    }
+
+    #child1 {
+        position: relative;
+        top: 30px;
+    }
+
+    #p1 {
+        position: relative;
+        bottom: 33px;
+    }
+
+    #child2 {
+        position: relative;
+        top: 1px;
+    }
+
+    #h2 {
+        font-size: 10px;
+    }
+
+    #h1 {
+        font-size: 35px;
+    }
+
+    #micon h1 {
+        color: navy;
+        position: relative;
+        left: 20px;
+    }
+
+    #Consctuction {
+        height: 300px;
+        width: 100%;
+    }
+
+    .cons {
+        height: 220px;
+        width: 220px;
+
+        display: inline-block;
+        margin-left: 69px;
+        position: relative;
+        top: 40px;
+        border-radius: 10px;
+
+    }
+
+    #con1 {
+        background-image: url(https://tse3.mm.bing.net/th?id=OIP.tnbT2UA7G0LkoZdb7E5SegHaE8&pid=Api&P=0);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #con2 {
+        background-image: url(http://blog.tradologie.com/wp-content/uploads/2020/12/Ambuja-Cement-OPC-53-768x402.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #con3 {
+        background-image: url(https://bernardibuildingsupply.com/wp-content/uploads/Clay-Bricks.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #con4 {
+        background-image: url(https://tse3.mm.bing.net/th?id=OIP.4eBZjflXBRoaKsj22iApRAHaE8&pid=Api&P=0);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #con5 {
+        background-image: url(https://tse4.mm.bing.net/th?id=OIP.f5Q6YBo46H3mq-M-zwlxzAHaEs&pid=Api&P=0);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .consname {
+        position: relative;
+        top: 230px;
+        left: 66px;
+    }
+
+    #bannerbox {
+        height: 310px;
+        width: 100%;
+        background-image: url(https://nata.com.au/files/2022/11/Plumbing-Banner.png);
+        position: relative;
+        top: 20px;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    #Plumbing {
+        height: 250px;
+        width: 100%;
+
+    }
+
+    .plum {
+        height: 220px;
+        width: 220px;
+        position: relative;
+        top: 60px;
+
+        display: inline-block;
+        position: relative;
+        border-radius: 10px;
+        margin-left: 69px;
+    }
+
+
+    #plum1 {
+        background-image: url(https://i0.wp.com/theconstructor.org/wp-content/uploads/2016/08/clip_image005.png?resize=275%2C278&ssl=1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    #plum2 {
+        background-image: url(https://i5.walmartimages.com/asr/e845f82d-cd60-4a54-9419-79caced23ce1.5cd45ec194f39447122d064be13012e5.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #plum3 {
+        background-image: url(https://tiimg.tistatic.com/fp/1/007/644/20-mm-x-1-2-inch-high-pressure-polypropylene-plastic-valve-two-way-type-592.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    #plum4 {
+        background-image: url(https://5.imimg.com/data5/TH/UV/MY-6511161/cpvc-solvent-cement-500x500.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #plum5 {
+        background-image: url(https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fsj.bdj.2017.110/MediaObjects/41415_2017_Article_BFsjbdj2017110_Fig1_HTML.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .plumname {
+        position: relative;
+        top: 230px;
+        left: 60px;
+    }
+
+    #Lastbanner {
+        height: 250px;
+        width: 100%;
+        top: 85px;
+        position: relative;
+        border: 2px solid;
+        background-image: url(https://seinhinn.com/wp-content/uploads/2017/08/electrical-banner.jpg);
+        background-size: cover;
+
+    }
+
+    .child:hover {
+        height: 200px;
+        width: 400px;
+        box-shadow: 5px 5px 5px 5px;
+    }
+
+
+    .carousel-inner {
+        width: 100%;
+        height: 350px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .carousel-item {
+        height: 200px;
+        background-size: cover;
+    }
+</style>
+
+<body>
+    <div id="maindiv">
+        <nav id="nav1">
+            <div id="profile">
+            </div>
+            <div id="searchBar"><input type="search" name="Search" id="input1" placeholder="Search"></div>
+            <div id="searchicon">
+                <i class="fa fa-search" aria-hidden="true"></i>
+
+                <i id="Profileicon" class="fa fa-user-circle" aria-hidden="true"></i>
+                <i id="bars" class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+        </nav>
+
+
+        <div id="baner">
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100"
+                            src="https://sicagen.com/wp-content/uploads/2020/09/building-materials-product-banner.jpg"
+                            alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100"
+                            src="https://livinator.com/wp-content/uploads/2019/12/Building-Materials.jpg"
+                            alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100"
+                            src="http://jsplumbingheating.com/wp-content/uploads/2015/07/plumbing-banner.jpg"
+                            alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+                integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+                integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+                integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                crossorigin="anonymous"></script>
+
+        </div>
+
+        <div id="circle">
+            <div class="material" id="m1">
+                <a href="http://127.0.0.1:5500/subcategeory.html#Cement">
+                    <h2>Contruction</h2>
+                </a>
+            </div>
+            <div class="material" id="m2">
+                <a href="http://127.0.0.1:5500/subcategeory.html#Plumbing">
+                    <h2>Plumbing</h2>
+                </a>
+
+            </div>
+            <div class="material" id="m3">
+                <a href="http://127.0.0.1:5500/subcategeory.html">
+                    <h2>Eletrical</h2>
+            </div>
+            <div class="material" id="m4">
+                <a href="http://127.0.0.1:5500/subcategeory.html">
+                    <h2>Hardware Fixtures</h2>
+            </div>
+            <div class="material" id="m5">
+                <a href="javascript:myFunction();">
+                    <h2>Wood material</h2>
+            </div>
+            <div class="material" id="m6">
+                <a href="http://127.0.0.1:5500/subcategeory.html">
+                    <h2>HomeDecor</h2>
+            </div>
+            <div class="material" id="m7">
+                <a href="http://127.0.0.1:5500/subcategeory.html">
+                    <h2>Paints</h2>
+            </div>
+            <div class="material" id="m8">
+                <a href="http://127.0.0.1:5500/subcategeory.html">
+                    <h2 class="m8">Landscaping and Gardening</h2>
+            </div>
+            <div class="material" id="m9">
+                <a href="http://127.0.0.1:5500/subcategeory.html">
+                    <h2>Rope</h2>
+            </div>
+            <div class="material" id="m10">
+                <a href="http://127.0.0.1:5500/subcategeory.html">
+                    <h2>Drums</h2>
+            </div>
+        </div>
+
+        <div id="service">
+            <div class="child" id="child1">
+                <div id="micon"><i class="fa-solid fa-warehouse"></i></div>
+                <h1>One-Stop Solution</h1> <br>
+                <p id="p1">We supply Cement, Steel, Bricks, <br>RMC, Sand and Aggregates from all <br>the major building
+                    material suppliers.</p>
+            </div>
+            <div class="child" id="child2">
+                <h1 id="h1">Best Quality and Pricing</h1>
+                <p>Build Easy offers the highest quality <br> and best pricing for your building <br> material
+                    requirements.</p>
+            </div>
+            <div class="child">
+                <h1>Save Cost and Time</h1>
+                <p>Build Easy enables significant savings <br> in cost and time of the material <br> procurement
+                    process.</p>
+            </div>
+
+            <div id="Consctuction">
+                <div class="cons" id="con1">
+                    <h2 class="consname">Steel</h2>
+                </div>
+                <div class="cons" id="con2">
+                    <h2 class="consname">Cement</h2>
+                </div>
+                <div class="cons" id="con3">
+                    <h2 class="consname">Bricks</h2>
+                </div>
+                <div class="cons" id="con4">
+                    <h2 class="consname">Sand</h2>
+                </div>
+                <div class="cons" id="con5">
+                    <h2 class="consname">Aggregate</h2>
+                </div>
+            </div>
+
+
+            <div id="bannerbox"></div>
+
+            <div id="Plumbing">
+                <div class="plum" id="plum1">
+                    <h2 class="plumname">Pipes</h2>
+                </div>
+                <div class="plum" id="plum2">
+                    <h2 class="plumname">Tee Adapter</h2>
+                </div>
+                <div class="plum" id="plum3">
+                    <h2 class="plumname">Valve</h2>
+                </div>
+                <div class="plum" id="plum4">
+                    <h2 class="plumname">Solvent</h2>
+                </div>
+                <div class="plum" id="plum5">
+                    <h2 class="plumname">Teflon Tape</h2>
+                </div>
+
+            </div>
+            <div id="Lastbanner">
+            </div>
+
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("circle");
+            var xy = document.getElementById("xyz");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+                xy.style.display = "block";
+
+            }
+        }
+    </script>
+</body>
+
+</html>
